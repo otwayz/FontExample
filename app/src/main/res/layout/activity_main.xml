@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.otway.fontexample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-smallcaps)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-condensed)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-light)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-thin)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-thin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-medium)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is NORMAL 中文效果(sans-serif-medium)"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is BOLD 中文效果(sans-serif)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is BOLD 中文效果(sans-serif-light)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is BOLD 中文效果(sans-serif-thin)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is BOLD 中文效果(sans-serif-medium)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        />
+
+</LinearLayout>
